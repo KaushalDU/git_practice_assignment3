@@ -8,11 +8,11 @@ factors++;
 if (factors == 2){
 return true;
 }
-retern false;
+return false;
 }
-let ans = prime(19);
+let answer = prime(19);
 
-if (ans == true){
+if (answer == true){
 console.log("prime");
 } else {
 console.log("not prime");
