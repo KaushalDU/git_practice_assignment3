@@ -1,14 +1,14 @@
-function prime(number){
-let count = 0;
-for (let i=0;i<=number;i++){
-if(number%i = 0){
-count++;
+function prime(num){
+let factors = 0;
+for (let i=0;i<=num;i++){
+if(num%i == 0){
+factors++;
 }
 }
-if (count == 2){
+if (factors == 2){
 return true;
 }
-retern false;
+return false;
 }
 let answer = prime(19);
 
