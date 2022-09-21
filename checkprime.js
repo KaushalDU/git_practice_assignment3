@@ -1,18 +1,18 @@
-function prime(num){
-let cnt = 0;
-for (let i=0;i<=num;i++){
-if(num%i = 0){
-cnt++;
+function prime(number){
+let count = 0;
+for (let i=0;i<=number;i++){
+if(number%i = 0){
+count++;
 }
 }
-if (cnt == 2){
+if (count == 2){
 return true;
 }
 retern false;
 }
-let ans = prime(19);
+let answer = prime(19);
 
-if (ans == true){
+if (answer == true){
 console.log("prime");
 } else {
 console.log("not prime");
